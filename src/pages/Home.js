@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { useQuery } from "@apollo/react-hooks";
 import gql from "graphql-tag";
 //import { gql, useQuery } from '@apollo/client';
-import { AuthContext, AuthProvider } from "../context/auth";
+import { AuthContext} from "../context/auth";
 import { Grid, Transition } from "semantic-ui-react";
 import PostCard from "../components/PostCard";
 import PostForm from "../components/PostForm";
